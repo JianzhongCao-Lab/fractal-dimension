@@ -124,7 +124,7 @@ for (cohort_name in names(cohorts)) {
   }
 }
 
-seed <- as.integer(Sys.getenv("SAGITTAL_FD_SEED", unset = "377"))
+seed <- as.integer(Sys.getenv("SAGITTAL_FD_SEED", unset = "123"))
 timepoints <- as.numeric(strsplit(
   Sys.getenv("SAGITTAL_FD_TIMEPOINTS", unset = "12,24,36,48,60"),
   ",", fixed = TRUE
